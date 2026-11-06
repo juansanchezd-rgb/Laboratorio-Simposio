@@ -1,4 +1,0 @@
-      - name: Desplegar la infraestructura en Arena
-        env:
-          ARENA_OPERATION: deploy
-        run: python3 "$RUNNER_TEMP/arena-request.py"
